@@ -1,0 +1,154 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.haut
+{ display: flex;;
+    justify-content: right;
+    margin-top: 2vh;
+    
+}
+.haut a
+{display: flex;
+    justify-content: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: large;
+    margin-top: 4px;
+}
+.haut a:hover
+{
+text-decoration: underline;
+font-weight:bold ;
+color: black;
+} 
+img
+{
+    margin-top: 1px;
+}
+.search{
+
+}
+
+button
+{
+    color: aliceblue;
+    background-color: #4286F8;
+    width: 62px;
+    border: 1px solid white;
+    margin-right: 25px;
+    margin-left: 15px
+}
+button:hover
+{
+    color:#4286F8;
+    background-color: white;
+    border: 1px solid #4286F8;
+}
+input
+{
+    border-radius: 180px 180px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 12px -2px grey;
+
+}/*
+input img
+{
+    display: flex;
+    float: right;
+    height: 0.5px;
+}*/
+.center{ 
+    justify-content: center; 
+    margin-top: 10vh;
+    font-size: 3vw;
+}
+h1
+{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    display: flex;
+    justify-content: center;
+}
+.red{color: #EB4335;}
+.yellow{color: #FBBC03 ;}
+.green{color: #34A954;}
+.blue{color: #4185F4;}
+ .search
+{
+    background-image: url(micro.jpg);
+    background-size: 2%;
+    background-repeat: no-repeat;
+    background-position: right;
+    backg
+}
+table
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    font-size: 1vw;
+    color: grey;
+}
+.search
+{
+    width: 40%;
+    margin-left: 30%;
+    height: 4vh;
+    margin-top: 1vh;
+}
+.tout
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 233, 233);
+    font-size:  1.5vh;
+    border-top: solid rgba(203, 200, 200, 0.99);
+    height: 4vh;
+    color: gray;
+    padding-top: 1vh;
+}
+#touth
+{
+    background-color:rgb(237, 233, 233);
+    border: 2px solid solid rgba(203, 200, 200, 0.99);
+    font-size: 1.5vh;
+    height: 4vh;
+    justify-content: center;
+    color: gray;
+    padding-top: 1vh;
+}
+ table td
+{
+    
+    
+    background-color:#F2F2F2 ;
+    padding: 0.4vw;
+    margin-left: 10vw;
+    border-left: 15px white solid;
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+    color: grey;
+    margin-top: 1vh;
+}
+p a
+{
+    text-decoration: none;
+    margin-left: 1vw;
+
+}
+footer
+{
+margin-top: 23%;
+margin-left: 1.5vw;
+margin-right: 1.5vw;
+}
+footer a
+{
+    margin-right:2vw;
+    margin-left: 1vw;  
+}

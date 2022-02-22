@@ -141,14 +141,12 @@ p a
     margin-left: 1vw;
 
 }
-footer
-{
-margin-top: 23%;
-margin-left: 1.5vw;
-margin-right: 1.5vw;
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
-footer a
-{
-    margin-right:2vw;
-    margin-left: 1vw;  
+footer a{
+    margin-left: 10px;
 }
